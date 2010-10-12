@@ -3,7 +3,8 @@
 Dir.chdir ENV['HOME']
 
 sites = {
-  'zenhabits.net' => 'zenhabits.net'
+  'zenhabits.net'            => 'zenhabits.net',
+  'www.macosxautomation.com' => 'www.macosxautomation.com'
 }
 
 WGET_PARAMS='--recursive --no-clobber --page-requisites --html-extension --convert-links --exclude-directories=forums'
