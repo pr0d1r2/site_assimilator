@@ -3,8 +3,17 @@
 Dir.chdir ENV['HOME']
 
 sites = {
-  'zenhabits.net'            => 'zenhabits.net',
-  'www.macosxautomation.com' => 'www.macosxautomation.com'
+  'zenhabits.net'               => 'zenhabits.net',
+  'www.macosxautomation.com'    => 'www.macosxautomation.com',
+  'www.rentier-blog.pl'         => 'www.rentier-blog.pl',
+  'dwagrosze.blogspot.com'      => 'dwagrosze.blogspot.com',
+  'alexba.eu'                   => 'alexba.eu',
+  'thingsweforget.blogspot.com' => 'thingsweforget.blogspot.com',
+  'www.zyciejestpiekne.eu'      => 'www.zyciejestpiekne.eu',
+  'www.malawielkafirma.pl'      => 'www.malawielkafirma.pl',
+  'biz.blox.pl'                 => 'biz.blox.pl',
+  'podstawy-inwestowania.pl'    => 'podstawy-inwestowania.pl',
+  'oszczedzanie.net'            => 'oszczedzanie.net'
 }
 
 WGET_PARAMS='--recursive --no-clobber --page-requisites --html-extension --convert-links --exclude-directories=forums'
